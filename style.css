@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f38baa;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 25px 25px 75px #c03a8a;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .birthday-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .person img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;  
+    height: 50px; 
+    object-fit: cover;
+  }
+  
+  .info p, .info span {
+    margin: 0;
+  }
+  
+  .view-all {
+    background-color: #e94c99;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(233, 76, 153, 0.4);
+  }
+
+  h2{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  p{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+  }
